@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="The Signal: a colorful, independent news reader. World, politics, business, technology, science and sports headlines, handpicked by the editor.">
+<meta name="theme-color" content="#ffffff"><title>The Signal — A wider view.</title>
+<link rel="icon" href="icon.svg" type="image/svg+xml"><link rel="stylesheet" href="style.css">
+<script src="headlines.js" defer></script><script src="app.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#headlines">Skip to headlines</a>
+<div class="colorline"></div>
+<div class="page">
+<header>
+<div class="utility"><span id="date">THE DAILY PERSPECTIVE</span><span>INDEPENDENT SOURCES. ONE CLEAR VIEW.</span><button id="theme" aria-label="Switch color theme">◐ <span>Dark mode</span></button></div>
+<div class="masthead"><a href="./" aria-label="The Signal home">THE SIGNAL<span class="logo-dot">.</span></a><p>A wider view.<br><b>A world in motion.</b></p></div>
+<div class="navrow"><nav aria-label="News categories" id="filters"></nav><label class="search"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="Find a headline…" aria-label="Search headlines"></label></div>
+</header>
+<main>
+<section class="editionbar"><span><i></i> THE HEADLINE EDITION</span><span id="updated" role="status">Editor-curated links</span></section>
+<section class="hero" aria-labelledby="hero-title">
+<div class="hero-copy"><div class="eyebrow" id="hero-label">YOUR DAILY SIGNAL</div><h1 id="hero-title">A world of stories.<br>A little more perspective.</h1><div class="hero-bottom"><span id="hero-source">Handpicked headlines. Independent perspectives.</span><a id="hero-link" href="#headlines">Explore the headlines <span aria-hidden="true">↗</span></a></div></div>
+</section>
+<div class="sectiontop" id="headlines"><h2>Headlines<span> / </span><small id="view-label">All stories</small></h2><span id="result-count" aria-live="polite"></span></div>
+<p id="notice" class="notice" hidden></p>
+<div id="news-grid" class="news-grid"></div><p id="empty" class="empty" hidden>No headlines match your search. Try another word or choose All.</p>
+<section class="source-band"><div class="source-title"><h2>Newsroom directory</h2></div><div id="sources" class="source-links"></div></section>
+<details class="about"><summary>About The Signal <span>+</span></summary><p>The Signal is an independent, manually curated news aggregator, unaffiliated with the publishers it links to. Every headline and link is selected by the editor. Follow a headline to read the original story. Headlines appear in the editor’s chosen order within each topic.</p><p>There are no automatic feeds or scheduled updates. The edition changes when the editor publishes new links. Headlines belong to their respective publishers. No tracking, advertising cookies, or account required. Your color theme is saved only in your browser.</p></details>
+</main>
+<footer><a href="./" class="footer-logo">THE SIGNAL<span>.</span></a><span>A little color. A lot of perspective.</span><a href="editor.html">Headline editor ↗</a><a href="#">Back to top ↑</a></footer>
+</div><noscript><p>Enable JavaScript to view aggregated headlines. You can also visit <a href="https://www.bbc.com/news">BBC News</a> or <a href="https://www.theguardian.com">The Guardian</a>.</p></noscript>
+</body></html>
